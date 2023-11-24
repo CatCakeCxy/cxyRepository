@@ -1,0 +1,15 @@
+cd F:\Ros\ros2-windows
+com.xiaomi.aiasst.service
+<uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+QUERY_ALL_PACKAGES
+
+com.yy.chen
+com.x8zs.sandbox
+catch_.me_.if_.you_.can_
+com.f1player
+com.uf.hdkpq
+com.dnl
+
+call "C:\Program Files\rti_connext_dds-7.2.0\resource\scripts\rtisetenv_x64Win64VS2017.bat"
+set "NDDSHOME=C:\Program Files\rti_connext_dds-7.2.0"
+./build.ps1 -clean_install
